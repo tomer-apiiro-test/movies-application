@@ -7,9 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    @RequestMapping(method = RequestMethod.GET, path = "/")
+    @RequestMapping(method = RequestMethod.GET, path = "/wake-up")
     @ResponseBody
-    public String test() {
+    public String wakeUp() {
+        return "Wake up neo...";
+    }
+
+    @RequestMapping(method = RequestMethod.GET, path = "/follow")
+    @ResponseBody
+    public String follow() {
         return "follow the white rabbit...";
     }
 }
