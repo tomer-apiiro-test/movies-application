@@ -19,5 +19,9 @@ public class MatrixController {
         return "follow the white rabbit...";
     }
 
-
+    @RequestMapping(method = RequestMethod.GET, path = "/combat-traning")
+    @ResponseBody
+    public String combatTraining() {
+        return "I know Kong-Fu";
+    }
 }
