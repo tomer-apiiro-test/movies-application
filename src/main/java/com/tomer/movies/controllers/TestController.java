@@ -1,4 +1,4 @@
-package com.tomer.springdemo.controllers;
+package com.tomer.movies.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

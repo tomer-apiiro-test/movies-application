@@ -1,10 +1,10 @@
-package com.tomer.springdemo;
+package com.tomer.movies;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringDemoApplicationTests {
+class MoviesApplicationTests {
 
     @Test
     void contextLoads() {
