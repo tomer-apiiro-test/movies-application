@@ -13,7 +13,6 @@ public class MatrixController {
         return "Wake up neo...";
     }
 
-    // Test change
     @RequestMapping(method = RequestMethod.GET, path = "/follow")
     @ResponseBody
     public String follow() {
